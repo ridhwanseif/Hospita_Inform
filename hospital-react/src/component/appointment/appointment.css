@@ -1,0 +1,66 @@
+.user-photo {
+    width: 120px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.card{
+    text-align: center;
+    padding: 3rem;
+    margin: 2rem;
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2));
+
+}
+.card-body{
+    background-attachment: fixed;
+    border-radius: 2rem;
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2));
+}
+/* ModalAppointment */
+
+#appointment{
+    z-index: 2;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 1rem;
+    display: flex;
+    gap: 1rem;
+    border-radius: 3rem;
+}
+.Container{
+    width: 500px;
+    height: 480px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+#Close_btn{
+    width: 2rem;
+    font-size: 2rem;
+    position: absolute;
+    right: 0.5rem;
+    top: 1rem;
+    /* font-weight: 200; */
+    font-size: 1.1rem;
+    color: red;
+
+}
+
+#button{
+    padding-top: 5rem;
+   
+    flex-direction: row;
+    gap: 6rem;
+    
+}
+.search_list{
+    text-align: center;
+    align-items: center;
+    padding-top: 1rem;
+}

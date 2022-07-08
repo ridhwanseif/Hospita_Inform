@@ -1,0 +1,49 @@
+.modalBackground{
+    z-index: 2;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10rem;
+    display: flex;
+    gap: 1rem;
+    border-radius: 3rem;
+}
+.modalContainer{
+    width: 400px;
+    height: 380px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+#Close_btn1{
+    width: 2.3rem;
+    font-size: 2rem;
+    position: absolute;
+    right: 0.5rem;
+    top: 1rem;
+    /* font-weight: 200; */
+    font-size: 1.1rem;
+    color: red;
+
+}
+
+#button{
+    padding-top: 5rem;
+   
+    flex-direction: row;
+    gap: 6rem;
+    
+}
+.search_list{
+    text-align: center;
+    align-items: center;
+    padding-top: 1rem;
+}
+#logIn_form{
+    margin-top: 3rem;
+}

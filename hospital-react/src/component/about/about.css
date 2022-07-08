@@ -1,0 +1,17 @@
+/* .card{
+    
+} */
+.cardMedias{
+    height: 15rem;
+}
+
+.h4-about{
+    margin-bottom: 4rem;
+}
+.card{
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(doctorFooter.jpg);
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}

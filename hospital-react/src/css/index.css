@@ -1,0 +1,174 @@
+
+:root{
+    --blue:#0188df;
+    --black:#354046;
+}
+*{
+    font-family: 'Roboto', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    border: none !important;
+    outline: none !important;
+    text-decoration: none !important;
+    text-transform: capitalize;
+    font-weight: 400;
+    transition: all .2s linear;
+    text-decoration: none;
+    list-style: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.doctor{
+    margin-top: 60px;
+    width: 80%;
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    background-color: var(--blue);
+    background: linear-gradient(
+        45deg,
+        transparent,
+        var(blue),
+        transparent,
+    );
+    display: grid;
+    place-items: center;
+}
+.img-doctor{
+    border-radius: 2rem;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    transition: var(--transition);
+    transform: rotate(10deg); 
+}
+.img-doctor:hover{
+    transform: rotate(0);
+  
+}
+/* ################ SOCIAL ############# */
+.social_m{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    position: fixed;
+    left: 0;
+    bottom: 6rem;
+    margin: 2rem;
+
+
+    width: max-content;
+    display: block;
+    padding: 0.7rem 1.7rem;
+    z-index: 2;
+    position: fixed;
+    transform: translateX(-50%);
+  
+    display: flex;
+    gap: 1rem;
+    border-radius: 3rem;
+}
+.social_m a:hover{
+    font-size: 30px;
+    text-shadow: 20px;
+    box-shadow: 20px salmon;
+    background: rgba(53, 39, 154, 0.3);
+    border-radius: 3rem;
+}
+/* ################ SCROLL ############# */
+.scroll_down{
+    position: absolute;
+    right: -4rem;
+    bottom: 10rem;
+    transform: rotate(90deg);
+    margin: 20px;
+    font-weight: 200;
+    font-size: 1.1rem;
+
+    width: max-content;
+    display: block;
+    padding: 0.7rem 1.7rem;
+    z-index: 2;
+    position: fixed;
+  
+    display: flex;
+    gap: 1rem;
+    border-radius: 3rem;
+}
+.content{
+    font-size: 3rem;
+}
+
+.content span{
+    color: var(--blue);
+}
+
+.button1{
+    height: 3rem;
+    width: 10rem;
+    background: var(--blue);
+    color: rgb(1, 1, 1);
+    font-size: 1.7rem;
+    text-transform: capitalize;
+    border-radius: .5rem;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+    margin: 1rem 0;
+}
+
+.button1::before{
+    content:'';
+    position: absolute;
+    top: -100%; left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--black);
+    z-index: -1;
+    transition: .2s linear;
+}
+
+.button1:hover:before{
+    top: 0%;
+}
+
+.button1:hover{
+    box-shadow: .1rem .5rem var(--blue),
+                 0 .3rem .5rem rgba(0,0,0,.3);
+}
+
+.header{
+    height: 90%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    color: rgb(33, 32, 32);
+    padding-bottom: 85px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 20px 20px 20px 20px;
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2));
+    /* background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(doctorFooter.jpg); */
+
+}  
+
+ .header h1{
+    padding-top: 100px;
+    padding-bottom: 0;
+    font-size: 55px;
+}
+.header p{
+  
+    font-size: 20px;
+    width: 100%;
+    margin: auto;
+}
+.ditriptiion{
+    margin-top: 25px;
+}
+

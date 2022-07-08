@@ -1,0 +1,43 @@
+
+/* booking */
+.booking{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(231, 225, 225, 0.6),rgba(233, 230, 230, 0.6)),url(assets/imegs/user6-128x128.jpg); 
+    
+}
+.post{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 20px; 
+    color: #fff;
+    border-radius: 20px 20px 20px 20px;
+}
+
+h3{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
+  
+}
+.col-md-6 a:hover{
+    font-size: 20px;
+}
+.col-md-6{
+    padding-bottom: 20px;
+}
+.col-md-6 a{
+    text-decoration: none;
+}
+
+  
